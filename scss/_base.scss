@@ -1,0 +1,50 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--primary);
+  font-size: 1.6rem;
+  min-height: 100vh;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1rem 0 2rem 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem 5rem;
+  
+    li {
+        margin: 1rem;
+        a{
+            &:hover {
+                color: #d5491d; /* Assurez-vous que cette variable est définie */
+                cursor: pointer; /* Remplace "hand" par "pointer" */
+              
+            }
+        }
+    }
+  }
+  
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}

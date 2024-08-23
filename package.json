@@ -1,0 +1,22 @@
+{
+  "name": "port-folio",
+  "version": "1.0.0",
+  "description": "this is port folio for me, it's my developper profile",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass -w scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JerryLunda/portfolio.git"
+  },
+  "author": "jerrylunda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JerryLunda/portfolio/issues"
+  },
+  "homepage": "https://github.com/JerryLunda/portfolio#readme",
+  "dependencies": {
+    "sass": "^1.77.8"
+  }
+}

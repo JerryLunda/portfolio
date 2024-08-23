@@ -1,0 +1,11 @@
+:root {
+  --font-family: "Poppins", sans-serif;
+  --background: #161513;
+  --primary: #fff;
+  --secondary: #c5c5c5;
+  --primary-gradient: linear-gradient(45deg, #ff8660, #9a33ff);
+  --orange-gradient: linear-gradient(45deg, #ff8660, #d5491d);
+  --blue-gradient: linear-gradient(45deg, #5badff, #1373d1);
+}
+
+/*# sourceMappingURL=variables.css.map */
