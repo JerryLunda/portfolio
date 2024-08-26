@@ -1,0 +1,41 @@
+%btn {
+  padding: 1.7rem 2rem;
+  margin: 1.5rem 0;
+  border: solid 1px var(--primary);
+  border-radius: 1.8rem;
+  font-weight: 600;
+  width: 100%;
+}
+
+.btn-dark {
+  @extend %btn;
+  background: var(--black);
+  color: var(--primary);
+  &:hover {
+    background: var(--primary);
+    color: var(--black);
+  }
+}
+
+.btn-light {
+  @extend %btn;
+  background: var(--primary);
+  color: var(--black);
+  &:hover {
+    background: var(--black);
+    color: var(--primary);
+  }
+}
+
+%card-img{
+  width: 100%;
+  max-height: 25rem;
+}
+
+
+.separator {
+  width: 4rem;  // Prend toute la largeur du conteneur parent
+  height: 3px;  // Épaisseur de la ligne
+  background: var(--orange-gradient);  // Couleur de la ligne
+  margin-bottom:  3rem;  // Espacement vertical autour du séparateur
+}
